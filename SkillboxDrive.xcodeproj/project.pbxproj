@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9F4A08DFB5C46E98AD4775 /* Pods_SkillboxDrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */; };
+		734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734383A32B4ED3FE001D1EF3 /* AppDelegate.swift */; };
+		734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734383A52B4ED3FE001D1EF3 /* SceneDelegate.swift */; };
+		734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734383A72B4ED3FE001D1EF3 /* AppViewController.swift */; };
+		734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */; };
+		734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734383AF2B4ED400001D1EF3 /* Assets.xcassets */; };
+		734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */; };
+		739682762B4ED9B000368593 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682722B4ED9B000368593 /* Constance.swift */; };
+		739682772B4ED9B000368593 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 739682732B4ED9B000368593 /* Fonts */; };
+		739682782B4ED9B000368593 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682742B4ED9B000368593 /* URLs.swift */; };
+		739682792B4ED9B000368593 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682752B4ED9B000368593 /* Strings.swift */; };
+		7396827B2B4ED9D300368593 /* Extension+ in Resources */ = {isa = PBXBuildFile; fileRef = 7396827A2B4ED9D300368593 /* Extension+ */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A76D4D7E746606B03723A3F /* Pods-SkillboxDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillboxDrive.release.xcconfig"; path = "Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive.release.xcconfig"; sourceTree = "<group>"; };
+		6BA3E7E7146E274C5E4D4E44 /* Pods-SkillboxDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillboxDrive.debug.xcconfig"; path = "Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		734383A02B4ED3FE001D1EF3 /* SkillboxDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillboxDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		734383A32B4ED3FE001D1EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734383A52B4ED3FE001D1EF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		734383A72B4ED3FE001D1EF3 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		734383AD2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkillboxDrive.xcdatamodel; sourceTree = "<group>"; };
+		734383AF2B4ED400001D1EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734383B22B4ED400001D1EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734383B42B4ED400001D1EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739682722B4ED9B000368593 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constance.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Constance.swift; sourceTree = "<group>"; };
+		739682732B4ED9B000368593 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Fonts; sourceTree = "<group>"; };
+		739682742B4ED9B000368593 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/URLs.swift; sourceTree = "<group>"; };
+		739682752B4ED9B000368593 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Strings.swift; sourceTree = "<group>"; };
+		7396827A2B4ED9D300368593 /* Extension+ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Extension+"; path = "../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Extension+"; sourceTree = "<group>"; };
+		A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillboxDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7343839D2B4ED3FE001D1EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9F4A08DFB5C46E98AD4775 /* Pods_SkillboxDrive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734383972B4ED3FE001D1EF3 = {
+			isa = PBXGroup;
+			children = (
+				734383A22B4ED3FE001D1EF3 /* SkillboxDrive */,
+				734383A12B4ED3FE001D1EF3 /* Products */,
+				C2EDD60A364BE1E80489E53B /* Pods */,
+				DE0FDA5C87B0E69A614F6725 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		734383A12B4ED3FE001D1EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734383A02B4ED3FE001D1EF3 /* SkillboxDrive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734383A22B4ED3FE001D1EF3 /* SkillboxDrive */ = {
+			isa = PBXGroup;
+			children = (
+				7396826B2B4ED6FC00368593 /* Application */,
+				739682702B4ED7FF00368593 /* AppViewController */,
+				7396826C2B4ED74700368593 /* LaunchScreen */,
+				7396826D2B4ED76600368593 /* Services */,
+				739682712B4ED81800368593 /* Resources */,
+			);
+			path = SkillboxDrive;
+			sourceTree = "<group>";
+		};
+		7396826B2B4ED6FC00368593 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				734383B42B4ED400001D1EF3 /* Info.plist */,
+				734383A32B4ED3FE001D1EF3 /* AppDelegate.swift */,
+				734383A52B4ED3FE001D1EF3 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7396826C2B4ED74700368593 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		7396826D2B4ED76600368593 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7396826E2B4ED77C00368593 /* DatabaseService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7396826E2B4ED77C00368593 /* DatabaseService */ = {
+			isa = PBXGroup;
+			children = (
+				7396826F2B4ED79000368593 /* CoreData */,
+			);
+			path = DatabaseService;
+			sourceTree = "<group>";
+		};
+		7396826F2B4ED79000368593 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		739682702B4ED7FF00368593 /* AppViewController */ = {
+			isa = PBXGroup;
+			children = (
+				734383A72B4ED3FE001D1EF3 /* AppViewController.swift */,
+			);
+			path = AppViewController;
+			sourceTree = "<group>";
+		};
+		739682712B4ED81800368593 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7396827E2B4EE7CD00368593 /* Generated */,
+				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
+				7396827A2B4ED9D300368593 /* Extension+ */,
+				739682732B4ED9B000368593 /* Fonts */,
+				739682722B4ED9B000368593 /* Constance.swift */,
+				739682752B4ED9B000368593 /* Strings.swift */,
+				739682742B4ED9B000368593 /* URLs.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7396827E2B4EE7CD00368593 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		C2EDD60A364BE1E80489E53B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA3E7E7146E274C5E4D4E44 /* Pods-SkillboxDrive.debug.xcconfig */,
+				2A76D4D7E746606B03723A3F /* Pods-SkillboxDrive.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE0FDA5C87B0E69A614F6725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7343839F2B4ED3FE001D1EF3 /* SkillboxDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734383B72B4ED400001D1EF3 /* Build configuration list for PBXNativeTarget "SkillboxDrive" */;
+			buildPhases = (
+				00D19223B486A66A5A6325D0 /* [CP] Check Pods Manifest.lock */,
+				7343839C2B4ED3FE001D1EF3 /* Sources */,
+				7343839D2B4ED3FE001D1EF3 /* Frameworks */,
+				7343839E2B4ED3FE001D1EF3 /* Resources */,
+				C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */,
+				7396827C2B4EDED400368593 /* ShellScript */,
+				7396827D2B4EE7B100368593 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillboxDrive;
+			productName = SkillboxDrive;
+			productReference = 734383A02B4ED3FE001D1EF3 /* SkillboxDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734383982B4ED3FE001D1EF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7343839F2B4ED3FE001D1EF3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7343839B2B4ED3FE001D1EF3 /* Build configuration list for PBXProject "SkillboxDrive" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734383972B4ED3FE001D1EF3;
+			productRefGroup = 734383A12B4ED3FE001D1EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7343839F2B4ED3FE001D1EF3 /* SkillboxDrive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7343839E2B4ED3FE001D1EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739682772B4ED9B000368593 /* Fonts in Resources */,
+				734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */,
+				7396827B2B4ED9D300368593 /* Extension+ in Resources */,
+				734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D19223B486A66A5A6325D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkillboxDrive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7396827C2B4EDED400368593 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		7396827D2B4EE7B100368593 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/SkillboxDrive/Resources/Generated/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SkillboxDrive/Resources/Generated/R.generated.swift\"\n";
+		};
+		C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7343839C2B4ED3FE001D1EF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
+				739682782B4ED9B000368593 /* URLs.swift in Sources */,
+				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
+				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
+				739682762B4ED9B000368593 /* Constance.swift in Sources */,
+				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
+				739682792B4ED9B000368593 /* Strings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734383B22B4ED400001D1EF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734383B52B4ED400001D1EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734383B62B4ED400001D1EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734383B82B4ED400001D1EF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA3E7E7146E274C5E4D4E44 /* Pods-SkillboxDrive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLCQRH43S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkillboxDrive/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanBond.SkillboxDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734383B92B4ED400001D1EF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A76D4D7E746606B03723A3F /* Pods-SkillboxDrive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRLCQRH43S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkillboxDrive/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = IvanBond.SkillboxDrive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7343839B2B4ED3FE001D1EF3 /* Build configuration list for PBXProject "SkillboxDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734383B52B4ED400001D1EF3 /* Debug */,
+				734383B62B4ED400001D1EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734383B72B4ED400001D1EF3 /* Build configuration list for PBXNativeTarget "SkillboxDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734383B82B4ED400001D1EF3 /* Debug */,
+				734383B92B4ED400001D1EF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				734383AD2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodel */,
+			);
+			currentVersion = 734383AD2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodel */;
+			path = SkillboxDrive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 734383982B4ED3FE001D1EF3 /* Project object */;
+}
