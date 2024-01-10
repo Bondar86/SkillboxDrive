@@ -19,6 +19,7 @@
 		739682782B4ED9B000368593 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682742B4ED9B000368593 /* URLs.swift */; };
 		739682792B4ED9B000368593 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682752B4ED9B000368593 /* Strings.swift */; };
 		7396827B2B4ED9D300368593 /* Extension+ in Resources */ = {isa = PBXBuildFile; fileRef = 7396827A2B4ED9D300368593 /* Extension+ */; };
+		739682842B4EFBBB00368593 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682832B4EFBBB00368593 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		739682742B4ED9B000368593 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLs.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/URLs.swift; sourceTree = "<group>"; };
 		739682752B4ED9B000368593 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Strings.swift; sourceTree = "<group>"; };
 		7396827A2B4ED9D300368593 /* Extension+ */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Extension+"; path = "../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Extension+"; sourceTree = "<group>"; };
+		739682832B4EFBBB00368593 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ../../../../../Desktop/R.generated.swift; sourceTree = "<group>"; };
 		A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillboxDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -149,6 +151,7 @@
 		7396827E2B4EE7CD00368593 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				739682832B4EFBBB00368593 /* R.generated.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -178,12 +181,12 @@
 			buildConfigurationList = 734383B72B4ED400001D1EF3 /* Build configuration list for PBXNativeTarget "SkillboxDrive" */;
 			buildPhases = (
 				00D19223B486A66A5A6325D0 /* [CP] Check Pods Manifest.lock */,
+				7396827D2B4EE7B100368593 /* ShellScript */,
 				7343839C2B4ED3FE001D1EF3 /* Sources */,
 				7343839D2B4ED3FE001D1EF3 /* Frameworks */,
 				7343839E2B4ED3FE001D1EF3 /* Resources */,
 				C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */,
 				7396827C2B4EDED400368593 /* ShellScript */,
-				7396827D2B4EE7B100368593 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -328,6 +331,7 @@
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
 				739682782B4ED9B000368593 /* URLs.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
+				739682842B4EFBBB00368593 /* R.generated.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
 				739682762B4ED9B000368593 /* Constance.swift in Sources */,
 				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
