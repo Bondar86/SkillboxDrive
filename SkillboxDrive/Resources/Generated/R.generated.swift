@@ -170,7 +170,7 @@ struct _R {
 
       let name = "LaunchScreen"
       func validate() throws {
-
+        if UIKit.UIImage(named: "Logo", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'Logo' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
       }
     }
   }

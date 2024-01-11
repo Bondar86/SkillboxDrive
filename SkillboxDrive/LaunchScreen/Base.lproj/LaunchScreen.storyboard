@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rd4-bb-hvX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="rd4-bb-hvX">
                                 <rect key="frame" x="99" y="331" width="195" height="168"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="V9e-bW-tOa"/>
@@ -27,6 +27,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="rd4-bb-hvX" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Odu-nc-TE1"/>
                             <constraint firstItem="rd4-bb-hvX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="272" id="RhH-9r-fex"/>
                         </constraints>
                     </view>
