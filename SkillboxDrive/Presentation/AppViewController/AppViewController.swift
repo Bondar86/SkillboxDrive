@@ -5,7 +5,6 @@
 //  Created by Иван Бондаренко on 10/01/24.
 //
 
-import RswiftResources
 import UIKit
 
 class AppViewController: UIViewController {

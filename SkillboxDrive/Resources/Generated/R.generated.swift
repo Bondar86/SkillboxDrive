@@ -15,7 +15,6 @@ struct _R {
   var color: color { .init(bundle: bundle) }
   var image: image { .init(bundle: bundle) }
   var info: info { .init(bundle: bundle) }
-  var file: file { .init(bundle: bundle) }
   var storyboard: storyboard { .init(bundle: bundle) }
 
   func color(bundle: Foundation.Bundle) -> color {
@@ -25,9 +24,6 @@ struct _R {
     .init(bundle: bundle)
   }
   func info(bundle: Foundation.Bundle) -> info {
-    .init(bundle: bundle)
-  }
-  func file(bundle: Foundation.Bundle) -> file {
     .init(bundle: bundle)
   }
   func storyboard(bundle: Foundation.Bundle) -> storyboard {
@@ -138,17 +134,6 @@ struct _R {
     }
   }
 
-  /// This `_R.file` struct is generated, and contains static references to 2 resource files.
-  struct file {
-    let bundle: Foundation.Bundle
-
-    /// Resource file `Extension+`.
-    var `extension`: RswiftResources.FileResource { .init(name: "Extension+", pathExtension: "", bundle: bundle, locale: LocaleReference.none) }
-
-    /// Resource file `Fonts`.
-    var fonts: RswiftResources.FileResource { .init(name: "Fonts", pathExtension: "", bundle: bundle, locale: LocaleReference.none) }
-  }
-
   /// This `_R.storyboard` struct is generated, and contains static references to 1 storyboards.
   struct storyboard {
     let bundle: Foundation.Bundle
@@ -170,7 +155,7 @@ struct _R {
 
       let name = "LaunchScreen"
       func validate() throws {
-
+        if UIKit.UIImage(named: "Logo", in: bundle, compatibleWith: nil) == nil { throw RswiftResources.ValidationError("[R.swift] Image named 'Logo' is used in storyboard 'LaunchScreen', but couldn't be loaded.") }
       }
     }
   }
