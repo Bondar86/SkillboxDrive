@@ -1,8 +1,8 @@
 //
-//  Extension+UIButton.swift
+//  UIButton+Extension.swift
 //  SkillboxDrive
 //
-//  Created by Иван Бондаренко on 27.09.2023.
+//  Created by Иван Бондаренко on 15/01/24.
 //
 
 import UIKit

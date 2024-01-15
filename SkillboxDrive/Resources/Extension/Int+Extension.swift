@@ -1,8 +1,8 @@
 //
-//  Extension+Int.swift
+//  Int+Extension.swift
 //  SkillboxDrive
 //
-//  Created by Иван Бондаренко on 10/10/23.
+//  Created by Иван Бондаренко on 15/01/24.
 //
 
 import UIKit

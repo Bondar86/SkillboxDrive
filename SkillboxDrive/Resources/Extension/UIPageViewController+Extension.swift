@@ -1,8 +1,8 @@
 //
-//  Extension+UIPageViewController.swift
+//  UIPageViewController+Extension.swift
 //  SkillboxDrive
 //
-//  Created by Иван Бондаренко on 28/09/23.
+//  Created by Иван Бондаренко on 15/01/24.
 //
 
 import UIKit

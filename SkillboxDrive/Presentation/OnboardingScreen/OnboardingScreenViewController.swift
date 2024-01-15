@@ -8,12 +8,5 @@
 import UIKit
 
 class OnboardingScreenViewController: UIPageViewController {
-    
-    private lazy var firstImage: UIImageView = {
-        let image = R.image.image
-        return image
-    }()
-    
-    private lazy var 
-    
+
 }

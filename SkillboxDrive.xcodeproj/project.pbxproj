@@ -14,16 +14,23 @@
 		734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */; };
 		734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734383AF2B4ED400001D1EF3 /* Assets.xcassets */; };
 		734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */; };
-		739682772B4ED9B000368593 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 739682732B4ED9B000368593 /* Fonts */; };
 		739682792B4ED9B000368593 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682752B4ED9B000368593 /* Strings.swift */; };
-		739682842B4EFBBB00368593 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682832B4EFBBB00368593 /* R.generated.swift */; };
 		73CA1C4D2B516DE000015339 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C4C2B516DE000015339 /* Constance.swift */; };
 		73CA1C4F2B516E0700015339 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C4E2B516E0700015339 /* URLs.swift */; };
-		73CA1C512B516E1600015339 /* Extension+ in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C502B516E1600015339 /* Extension+ */; };
 		73CA1C542B5170DD00015339 /* OnboardingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C532B5170DD00015339 /* OnboardingScreenViewController.swift */; };
 		73CA1C572B5177BC00015339 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C562B5177BC00015339 /* FirstPageViewController.swift */; };
 		73CA1C592B5177C700015339 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C582B5177C700015339 /* SecondPageViewController.swift */; };
 		73CA1C5B2B5177D300015339 /* ThirdPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C5A2B5177D300015339 /* ThirdPageViewController.swift */; };
+		73CA1C5E2B5587FA00015339 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C5D2B5587FA00015339 /* Int+Extension.swift */; };
+		73CA1C602B55882100015339 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C5F2B55882100015339 /* UIButton+Extension.swift */; };
+		73CA1C622B55884100015339 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C612B55884100015339 /* UIFont+Extension.swift */; };
+		73CA1C642B55887F00015339 /* UIPageViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C632B55887F00015339 /* UIPageViewController+Extension.swift */; };
+		73CA1C662B5588A400015339 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C652B5588A400015339 /* UIViewController+Extension.swift */; };
+		73CA1C692B5588DD00015339 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C682B5588DD00015339 /* Fonts.swift */; };
+		73CA1C6E2B55890A00015339 /* GraphikMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C6B2B55890900015339 /* GraphikMedium.otf */; };
+		73CA1C6F2B55890A00015339 /* GraphikRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C6C2B55890A00015339 /* GraphikRegular.otf */; };
+		73CA1C702B55890A00015339 /* GraphikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C6D2B55890A00015339 /* GraphikBold.otf */; };
+		73CA1C732B55941500015339 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C722B55941500015339 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,16 +44,23 @@
 		734383AF2B4ED400001D1EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734383B22B4ED400001D1EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734383B42B4ED400001D1EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		739682732B4ED9B000368593 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Fonts; sourceTree = "<group>"; };
 		739682752B4ED9B000368593 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = ../../../Lesson/Skillbox/SkillboxDrive/SkillboxDrive/Resources/Strings.swift; sourceTree = "<group>"; };
-		739682832B4EFBBB00368593 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ../../../../../Desktop/R.generated.swift; sourceTree = "<group>"; };
 		73CA1C4C2B516DE000015339 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		73CA1C4E2B516E0700015339 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
-		73CA1C502B516E1600015339 /* Extension+ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Extension+"; sourceTree = "<group>"; };
 		73CA1C532B5170DD00015339 /* OnboardingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreenViewController.swift; sourceTree = "<group>"; };
 		73CA1C562B5177BC00015339 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
 		73CA1C582B5177C700015339 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		73CA1C5A2B5177D300015339 /* ThirdPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPageViewController.swift; sourceTree = "<group>"; };
+		73CA1C5D2B5587FA00015339 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		73CA1C5F2B55882100015339 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		73CA1C612B55884100015339 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		73CA1C632B55887F00015339 /* UIPageViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIPageViewController+Extension.swift"; sourceTree = "<group>"; };
+		73CA1C652B5588A400015339 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		73CA1C682B5588DD00015339 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		73CA1C6B2B55890900015339 /* GraphikMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikMedium.otf; sourceTree = "<group>"; };
+		73CA1C6C2B55890A00015339 /* GraphikRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikRegular.otf; sourceTree = "<group>"; };
+		73CA1C6D2B55890A00015339 /* GraphikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikBold.otf; sourceTree = "<group>"; };
+		73CA1C722B55941500015339 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillboxDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -145,9 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
+				73CA1C672B5588C000015339 /* Extension */,
+				73CA1C6A2B5588FB00015339 /* Fonts */,
 				7396827E2B4EE7CD00368593 /* Generated */,
-				73CA1C502B516E1600015339 /* Extension+ */,
-				739682732B4ED9B000368593 /* Fonts */,
 				73CA1C4C2B516DE000015339 /* Constance.swift */,
 				739682752B4ED9B000368593 /* Strings.swift */,
 				73CA1C4E2B516E0700015339 /* URLs.swift */,
@@ -158,7 +172,7 @@
 		7396827E2B4EE7CD00368593 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				739682832B4EFBBB00368593 /* R.generated.swift */,
+				73CA1C722B55941500015339 /* R.generated.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -192,6 +206,29 @@
 			path = Child;
 			sourceTree = "<group>";
 		};
+		73CA1C672B5588C000015339 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				73CA1C5D2B5587FA00015339 /* Int+Extension.swift */,
+				73CA1C5F2B55882100015339 /* UIButton+Extension.swift */,
+				73CA1C612B55884100015339 /* UIFont+Extension.swift */,
+				73CA1C632B55887F00015339 /* UIPageViewController+Extension.swift */,
+				73CA1C652B5588A400015339 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		73CA1C6A2B5588FB00015339 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				73CA1C682B5588DD00015339 /* Fonts.swift */,
+				73CA1C6D2B55890A00015339 /* GraphikBold.otf */,
+				73CA1C6B2B55890900015339 /* GraphikMedium.otf */,
+				73CA1C6C2B55890A00015339 /* GraphikRegular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		C2EDD60A364BE1E80489E53B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,12 +254,12 @@
 			buildConfigurationList = 734383B72B4ED400001D1EF3 /* Build configuration list for PBXNativeTarget "SkillboxDrive" */;
 			buildPhases = (
 				00D19223B486A66A5A6325D0 /* [CP] Check Pods Manifest.lock */,
-				7396827D2B4EE7B100368593 /* ShellScript */,
+				73CA1C712B55902F00015339 /* R.swift */,
+				7396827C2B4EDED400368593 /* SwiftLint */,
 				7343839C2B4ED3FE001D1EF3 /* Sources */,
 				7343839D2B4ED3FE001D1EF3 /* Frameworks */,
 				7343839E2B4ED3FE001D1EF3 /* Resources */,
 				C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */,
-				7396827C2B4EDED400368593 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -271,10 +308,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73CA1C512B516E1600015339 /* Extension+ in Resources */,
-				739682772B4ED9B000368593 /* Fonts in Resources */,
+				73CA1C702B55890A00015339 /* GraphikBold.otf in Resources */,
+				73CA1C6F2B55890A00015339 /* GraphikRegular.otf in Resources */,
 				734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */,
 				734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */,
+				73CA1C6E2B55890A00015339 /* GraphikMedium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +341,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7396827C2B4EDED400368593 /* ShellScript */ = {
+		7396827C2B4EDED400368593 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -313,6 +351,7 @@
 			);
 			inputPaths = (
 			);
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -321,7 +360,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		7396827D2B4EE7B100368593 /* ShellScript */ = {
+		73CA1C712B55902F00015339 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -331,6 +370,7 @@
 			);
 			inputPaths = (
 			);
+			name = R.swift;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -365,17 +405,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
+				73CA1C642B55887F00015339 /* UIPageViewController+Extension.swift in Sources */,
 				73CA1C4F2B516E0700015339 /* URLs.swift in Sources */,
 				73CA1C572B5177BC00015339 /* FirstPageViewController.swift in Sources */,
+				73CA1C662B5588A400015339 /* UIViewController+Extension.swift in Sources */,
+				73CA1C622B55884100015339 /* UIFont+Extension.swift in Sources */,
 				73CA1C5B2B5177D300015339 /* ThirdPageViewController.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
-				739682842B4EFBBB00368593 /* R.generated.swift in Sources */,
 				73CA1C592B5177C700015339 /* SecondPageViewController.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
+				73CA1C5E2B5587FA00015339 /* Int+Extension.swift in Sources */,
+				73CA1C732B55941500015339 /* R.generated.swift in Sources */,
 				73CA1C4D2B516DE000015339 /* Constance.swift in Sources */,
 				73CA1C542B5170DD00015339 /* OnboardingScreenViewController.swift in Sources */,
 				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
 				739682792B4ED9B000368593 /* Strings.swift in Sources */,
+				73CA1C692B5588DD00015339 /* Fonts.swift in Sources */,
+				73CA1C602B55882100015339 /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

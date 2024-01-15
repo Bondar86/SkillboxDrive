@@ -1,8 +1,8 @@
 //
-//  Extension+UIFont.swift
+//  UIFont+Extension.swift
 //  SkillboxDrive
 //
-//  Created by Иван Бондаренко on 26.09.2023.
+//  Created by Иван Бондаренко on 15/01/24.
 //
 
 import UIKit

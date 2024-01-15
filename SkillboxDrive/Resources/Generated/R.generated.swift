@@ -15,6 +15,7 @@ struct _R {
   var color: color { .init(bundle: bundle) }
   var image: image { .init(bundle: bundle) }
   var info: info { .init(bundle: bundle) }
+  var font: font { .init(bundle: bundle) }
   var file: file { .init(bundle: bundle) }
   var storyboard: storyboard { .init(bundle: bundle) }
 
@@ -27,6 +28,9 @@ struct _R {
   func info(bundle: Foundation.Bundle) -> info {
     .init(bundle: bundle)
   }
+  func font(bundle: Foundation.Bundle) -> font {
+    .init(bundle: bundle)
+  }
   func file(bundle: Foundation.Bundle) -> file {
     .init(bundle: bundle)
   }
@@ -34,6 +38,7 @@ struct _R {
     .init(bundle: bundle)
   }
   func validate() throws {
+    try self.font.validate()
     try self.storyboard.validate()
   }
 
@@ -138,15 +143,41 @@ struct _R {
     }
   }
 
-  /// This `_R.file` struct is generated, and contains static references to 2 resource files.
+  /// This `_R.font` struct is generated, and contains static references to 3 fonts.
+  struct font: Sequence {
+    let bundle: Foundation.Bundle
+
+    /// Font `Graphik-Bold`.
+    var graphikBold: RswiftResources.FontResource { .init(name: "Graphik-Bold", bundle: bundle, filename: "GraphikBold.otf") }
+
+    /// Font `Graphik-Medium`.
+    var graphikMedium: RswiftResources.FontResource { .init(name: "Graphik-Medium", bundle: bundle, filename: "GraphikMedium.otf") }
+
+    /// Font `Graphik-Regular`.
+    var graphikRegular: RswiftResources.FontResource { .init(name: "Graphik-Regular", bundle: bundle, filename: "GraphikRegular.otf") }
+
+    func makeIterator() -> IndexingIterator<[RswiftResources.FontResource]> {
+      [graphikBold, graphikMedium, graphikRegular].makeIterator()
+    }
+    func validate() throws {
+      for font in self {
+        if !font.canBeLoaded() { throw RswiftResources.ValidationError("[R.swift] Font '\(font.name)' could not be loaded, is '\(font.filename)' added to the UIAppFonts array in this targets Info.plist?") }
+      }
+    }
+  }
+
+  /// This `_R.file` struct is generated, and contains static references to 3 resource files.
   struct file {
     let bundle: Foundation.Bundle
 
-    /// Resource file `Extension+`.
-    var `extension`: RswiftResources.FileResource { .init(name: "Extension+", pathExtension: "", bundle: bundle, locale: LocaleReference.none) }
+    /// Resource file `GraphikBold.otf`.
+    var graphikBoldOtf: RswiftResources.FileResource { .init(name: "GraphikBold", pathExtension: "otf", bundle: bundle, locale: LocaleReference.none) }
 
-    /// Resource file `Fonts`.
-    var fonts: RswiftResources.FileResource { .init(name: "Fonts", pathExtension: "", bundle: bundle, locale: LocaleReference.none) }
+    /// Resource file `GraphikMedium.otf`.
+    var graphikMediumOtf: RswiftResources.FileResource { .init(name: "GraphikMedium", pathExtension: "otf", bundle: bundle, locale: LocaleReference.none) }
+
+    /// Resource file `GraphikRegular.otf`.
+    var graphikRegularOtf: RswiftResources.FileResource { .init(name: "GraphikRegular", pathExtension: "otf", bundle: bundle, locale: LocaleReference.none) }
   }
 
   /// This `_R.storyboard` struct is generated, and contains static references to 1 storyboards.
