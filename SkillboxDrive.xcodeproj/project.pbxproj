@@ -17,9 +17,16 @@
 		7367CADC2B5041BF00522380 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADB2B5041BF00522380 /* Strings.swift */; };
 		7367CADE2B5041C600522380 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADD2B5041C600522380 /* Constance.swift */; };
 		7367CAE02B5041CD00522380 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADF2B5041CD00522380 /* URLs.swift */; };
-		7367CAE22B5041D600522380 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 7367CAE12B5041D600522380 /* Fonts */; };
-		7367CAE42B5041E100522380 /* Extension+ in Resources */ = {isa = PBXBuildFile; fileRef = 7367CAE32B5041E100522380 /* Extension+ */; };
-		739682842B4EFBBB00368593 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739682832B4EFBBB00368593 /* R.generated.swift */; };
+		73CA1CA12B5978BE00015339 /* Extension+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C9C2B5978BE00015339 /* Extension+UIFont.swift */; };
+		73CA1CA22B5978BE00015339 /* Extension+UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C9D2B5978BE00015339 /* Extension+UIPageViewController.swift */; };
+		73CA1CA32B5978BE00015339 /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C9E2B5978BE00015339 /* Extension+ViewController.swift */; };
+		73CA1CA42B5978BE00015339 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C9F2B5978BE00015339 /* Extension+Int.swift */; };
+		73CA1CA52B5978BE00015339 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1CA02B5978BE00015339 /* Extension+UIButton.swift */; };
+		73CA1CAB2B5978C500015339 /* GraphikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1CA72B5978C500015339 /* GraphikBold.otf */; };
+		73CA1CAC2B5978C500015339 /* GraphikRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1CA82B5978C500015339 /* GraphikRegular.otf */; };
+		73CA1CAD2B5978C500015339 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1CA92B5978C500015339 /* Fonts.swift */; };
+		73CA1CAE2B5978C500015339 /* GraphikMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1CAA2B5978C500015339 /* GraphikMedium.otf */; };
+		73CA1CB12B597AE600015339 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1CB02B597AE600015339 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,9 +43,16 @@
 		7367CADB2B5041BF00522380 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7367CADD2B5041C600522380 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		7367CADF2B5041CD00522380 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
-		7367CAE12B5041D600522380 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
-		7367CAE32B5041E100522380 /* Extension+ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Extension+"; sourceTree = "<group>"; };
-		739682832B4EFBBB00368593 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = ../../../../../Desktop/R.generated.swift; sourceTree = "<group>"; };
+		73CA1C9C2B5978BE00015339 /* Extension+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIFont.swift"; sourceTree = "<group>"; };
+		73CA1C9D2B5978BE00015339 /* Extension+UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIPageViewController.swift"; sourceTree = "<group>"; };
+		73CA1C9E2B5978BE00015339 /* Extension+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		73CA1C9F2B5978BE00015339 /* Extension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		73CA1CA02B5978BE00015339 /* Extension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		73CA1CA72B5978C500015339 /* GraphikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikBold.otf; sourceTree = "<group>"; };
+		73CA1CA82B5978C500015339 /* GraphikRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikRegular.otf; sourceTree = "<group>"; };
+		73CA1CA92B5978C500015339 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		73CA1CAA2B5978C500015339 /* GraphikMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikMedium.otf; sourceTree = "<group>"; };
+		73CA1CB02B597AE600015339 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillboxDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,8 +161,8 @@
 			children = (
 				7396827E2B4EE7CD00368593 /* Generated */,
 				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
-				7367CAE32B5041E100522380 /* Extension+ */,
-				7367CAE12B5041D600522380 /* Fonts */,
+				73CA1CA62B5978C500015339 /* Fonts */,
+				73CA1C9B2B5978BE00015339 /* Extension+ */,
 				7367CADB2B5041BF00522380 /* Strings.swift */,
 				7367CADD2B5041C600522380 /* Constance.swift */,
 				7367CADF2B5041CD00522380 /* URLs.swift */,
@@ -159,9 +173,34 @@
 		7396827E2B4EE7CD00368593 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				739682832B4EFBBB00368593 /* R.generated.swift */,
+				73CA1CB02B597AE600015339 /* R.generated.swift */,
 			);
 			path = Generated;
+			sourceTree = "<group>";
+		};
+		73CA1C9B2B5978BE00015339 /* Extension+ */ = {
+			isa = PBXGroup;
+			children = (
+				73CA1C9C2B5978BE00015339 /* Extension+UIFont.swift */,
+				73CA1C9D2B5978BE00015339 /* Extension+UIPageViewController.swift */,
+				73CA1C9E2B5978BE00015339 /* Extension+ViewController.swift */,
+				73CA1C9F2B5978BE00015339 /* Extension+Int.swift */,
+				73CA1CA02B5978BE00015339 /* Extension+UIButton.swift */,
+			);
+			name = "Extension+";
+			path = "../../../../Desktop/Extension+";
+			sourceTree = "<group>";
+		};
+		73CA1CA62B5978C500015339 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				73CA1CA72B5978C500015339 /* GraphikBold.otf */,
+				73CA1CA82B5978C500015339 /* GraphikRegular.otf */,
+				73CA1CA92B5978C500015339 /* Fonts.swift */,
+				73CA1CAA2B5978C500015339 /* GraphikMedium.otf */,
+			);
+			name = Fonts;
+			path = ../../../../Desktop/Fonts;
 			sourceTree = "<group>";
 		};
 		C2EDD60A364BE1E80489E53B /* Pods */ = {
@@ -189,12 +228,12 @@
 			buildConfigurationList = 734383B72B4ED400001D1EF3 /* Build configuration list for PBXNativeTarget "SkillboxDrive" */;
 			buildPhases = (
 				00D19223B486A66A5A6325D0 /* [CP] Check Pods Manifest.lock */,
-				7396827D2B4EE7B100368593 /* ShellScript */,
-				7396827C2B4EDED400368593 /* ShellScript */,
+				73CA1CAF2B59796300015339 /* R.swift */,
 				7343839C2B4ED3FE001D1EF3 /* Sources */,
 				7343839D2B4ED3FE001D1EF3 /* Frameworks */,
 				7343839E2B4ED3FE001D1EF3 /* Resources */,
 				C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */,
+				73CA1CB22B597B3B00015339 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -243,9 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7367CAE22B5041D600522380 /* Fonts in Resources */,
 				734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */,
-				7367CAE42B5041E100522380 /* Extension+ in Resources */,
+				73CA1CAC2B5978C500015339 /* GraphikRegular.otf in Resources */,
+				73CA1CAE2B5978C500015339 /* GraphikMedium.otf in Resources */,
+				73CA1CAB2B5978C500015339 /* GraphikBold.otf in Resources */,
 				734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +315,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7396827C2B4EDED400368593 /* ShellScript */ = {
+		73CA1CAF2B59796300015339 /* R.swift */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -285,24 +325,7 @@
 			);
 			inputPaths = (
 			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n\n";
-		};
-		7396827D2B4EE7B100368593 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
+			name = R.swift;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -311,6 +334,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/SkillboxDrive/Resources/Generated/R.generated.swift\"\n";
+		};
+		73CA1CB22B597B3B00015339 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		C756BA10DFBD9AC99E7CF8EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -336,14 +378,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73CA1CAD2B5978C500015339 /* Fonts.swift in Sources */,
+				73CA1CB12B597AE600015339 /* R.generated.swift in Sources */,
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
-				739682842B4EFBBB00368593 /* R.generated.swift in Sources */,
 				7367CAE02B5041CD00522380 /* URLs.swift in Sources */,
+				73CA1CA32B5978BE00015339 /* Extension+ViewController.swift in Sources */,
+				73CA1CA42B5978BE00015339 /* Extension+Int.swift in Sources */,
+				73CA1CA12B5978BE00015339 /* Extension+UIFont.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
 				7367CADC2B5041BF00522380 /* Strings.swift in Sources */,
 				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
 				7367CADE2B5041C600522380 /* Constance.swift in Sources */,
+				73CA1CA52B5978BE00015339 /* Extension+UIButton.swift in Sources */,
+				73CA1CA22B5978BE00015339 /* Extension+UIPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
