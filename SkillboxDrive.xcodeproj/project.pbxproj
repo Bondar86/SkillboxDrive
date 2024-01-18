@@ -31,6 +31,7 @@
 		73CA1C6F2B55890A00015339 /* GraphikRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C6C2B55890A00015339 /* GraphikRegular.otf */; };
 		73CA1C702B55890A00015339 /* GraphikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73CA1C6D2B55890A00015339 /* GraphikBold.otf */; };
 		73CA1C732B55941500015339 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C722B55941500015339 /* R.generated.swift */; };
+		73CA1C752B581C9600015339 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73CA1C742B581C9600015339 /* LoginScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		73CA1C6C2B55890A00015339 /* GraphikRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikRegular.otf; sourceTree = "<group>"; };
 		73CA1C6D2B55890A00015339 /* GraphikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikBold.otf; sourceTree = "<group>"; };
 		73CA1C722B55941500015339 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		73CA1C742B581C9600015339 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
 		A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkillboxDrive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -192,6 +194,7 @@
 			children = (
 				73CA1C532B5170DD00015339 /* OnboardingScreenViewController.swift */,
 				73CA1C5C2B5177D800015339 /* Child */,
+				73CA1C742B581C9600015339 /* LoginScreenViewController.swift */,
 			);
 			path = OnboardingScreen;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				73CA1C622B55884100015339 /* UIFont+Extension.swift in Sources */,
 				73CA1C5B2B5177D300015339 /* ThirdPageViewController.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
+				73CA1C752B581C9600015339 /* LoginScreenViewController.swift in Sources */,
 				73CA1C592B5177C700015339 /* SecondPageViewController.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
 				73CA1C5E2B5587FA00015339 /* Int+Extension.swift in Sources */,

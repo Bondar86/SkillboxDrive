@@ -12,13 +12,15 @@ final class FirstPageViewController: UIViewController {
     private lazy var imageView: UIImageView = {
         let image = UIImageView(image: R.image.image())
         image.translatesAutoresizingMaskIntoConstraints = false
+        image.contentMode = .scaleAspectFit
         return image
     }()
     
     private lazy var label: UILabel = {
        let label = UILabel()
         label.numberOfLines = 0
-        label.font = Fonts.small
+        label.font = Fonts.header2
+        label.textAlignment = .center
         label.text = Strings.onboardingScreenTitleForLabel
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
