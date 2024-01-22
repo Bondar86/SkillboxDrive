@@ -14,6 +14,10 @@
 		734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */; };
 		734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734383AF2B4ED400001D1EF3 /* Assets.xcassets */; };
 		734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */; };
+		735806952B5EBDE100A6D721 /* LastFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735806942B5EBDE100A6D721 /* LastFilesViewController.swift */; };
+		735806972B5EBE0600A6D721 /* PublishedFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735806962B5EBE0600A6D721 /* PublishedFilesViewController.swift */; };
+		735806992B5EBE1600A6D721 /* AllFilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735806982B5EBE1600A6D721 /* AllFilesViewController.swift */; };
+		7358069B2B5EBE2E00A6D721 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358069A2B5EBE2E00A6D721 /* TabBarController.swift */; };
 		7367CADC2B5041BF00522380 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADB2B5041BF00522380 /* Strings.swift */; };
 		7367CADE2B5041C600522380 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADD2B5041C600522380 /* Constance.swift */; };
 		7367CAE02B5041CD00522380 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADF2B5041CD00522380 /* URLs.swift */; };
@@ -40,6 +44,10 @@
 		734383AF2B4ED400001D1EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734383B22B4ED400001D1EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734383B42B4ED400001D1EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735806942B5EBDE100A6D721 /* LastFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesViewController.swift; sourceTree = "<group>"; };
+		735806962B5EBE0600A6D721 /* PublishedFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedFilesViewController.swift; sourceTree = "<group>"; };
+		735806982B5EBE1600A6D721 /* AllFilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFilesViewController.swift; sourceTree = "<group>"; };
+		7358069A2B5EBE2E00A6D721 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7367CADB2B5041BF00522380 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7367CADD2B5041C600522380 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		7367CADF2B5041CD00522380 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
@@ -97,11 +105,31 @@
 			path = SkillboxDrive;
 			sourceTree = "<group>";
 		};
+		7358069C2B5EBE3700A6D721 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7358069A2B5EBE2E00A6D721 /* TabBarController.swift */,
+				7358069D2B5EBE4A00A6D721 /* Childs */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		7358069D2B5EBE4A00A6D721 /* Childs */ = {
+			isa = PBXGroup;
+			children = (
+				735806942B5EBDE100A6D721 /* LastFilesViewController.swift */,
+				735806962B5EBE0600A6D721 /* PublishedFilesViewController.swift */,
+				735806982B5EBE1600A6D721 /* AllFilesViewController.swift */,
+			);
+			path = Childs;
+			sourceTree = "<group>";
+		};
 		7367CACC2B503DBE00522380 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
 				739682702B4ED7FF00368593 /* AppViewController */,
 				7396826C2B4ED74700368593 /* LaunchScreen */,
+				7358069C2B5EBE3700A6D721 /* TabBar */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -194,9 +222,9 @@
 		73CA1CA62B5978C500015339 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				73CA1CA92B5978C500015339 /* Fonts.swift */,
 				73CA1CA72B5978C500015339 /* GraphikBold.otf */,
 				73CA1CA82B5978C500015339 /* GraphikRegular.otf */,
-				73CA1CA92B5978C500015339 /* Fonts.swift */,
 				73CA1CAA2B5978C500015339 /* GraphikMedium.otf */,
 			);
 			name = Fonts;
@@ -378,9 +406,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735806992B5EBE1600A6D721 /* AllFilesViewController.swift in Sources */,
 				73CA1CAD2B5978C500015339 /* Fonts.swift in Sources */,
 				73CA1CB12B597AE600015339 /* R.generated.swift in Sources */,
+				7358069B2B5EBE2E00A6D721 /* TabBarController.swift in Sources */,
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
+				735806952B5EBDE100A6D721 /* LastFilesViewController.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
 				7367CAE02B5041CD00522380 /* URLs.swift in Sources */,
 				73CA1CA32B5978BE00015339 /* Extension+ViewController.swift in Sources */,
@@ -388,6 +419,7 @@
 				73CA1CA12B5978BE00015339 /* Extension+UIFont.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
 				7367CADC2B5041BF00522380 /* Strings.swift in Sources */,
+				735806972B5EBE0600A6D721 /* PublishedFilesViewController.swift in Sources */,
 				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
 				7367CADE2B5041C600522380 /* Constance.swift in Sources */,
 				73CA1CA52B5978BE00015339 /* Extension+UIButton.swift in Sources */,
