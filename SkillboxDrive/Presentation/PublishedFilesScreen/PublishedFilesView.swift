@@ -1,13 +1,13 @@
 //
-//  LastFilesViewController.swift
+//  PublishedFilesView.swift
 //  SkillboxDrive
 //
-//  Created by Иван Бондаренко on 22/01/24.
+//  Created by Иван Бондаренко on 25/01/24.
 //
 
 import UIKit
 
-class LastFilesViewController: UIViewController {
+class PublishedFilesView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

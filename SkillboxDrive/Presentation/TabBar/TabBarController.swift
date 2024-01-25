@@ -9,13 +9,12 @@ import UIKit
 
 final class TabBarController: UITabBarController {
     
-    private let lastFilesVC = LastFilesViewController()
-    private let publishedFilesVC = PublishedFilesViewController()
-    private let allFilesVC = AllFilesViewController()
+    private let lastFilesVC = LastFilesView()
+    private let publishedFilesVC = PublishedFilesView()
+    private let allFilesVC = AllFilesView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBarItem.standardAppearance.
         setupVC()
     }
     
