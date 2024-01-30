@@ -7,10 +7,6 @@
 
 import UIKit
 
-class LastFilesView: UIViewController {
+class LastFilesView: UIView {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
-    }
 }

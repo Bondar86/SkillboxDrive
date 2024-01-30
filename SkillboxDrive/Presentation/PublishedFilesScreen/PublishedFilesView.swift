@@ -7,10 +7,6 @@
 
 import UIKit
 
-class PublishedFilesView: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .red
-    }
+class PublishedFilesView: UIView {
+
 }
