@@ -8,7 +8,7 @@
 import Foundation
 
 enum URLs {
-    
+
     static var someURLs: String? {
         "Some url"
     }

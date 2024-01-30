@@ -5,29 +5,39 @@
 //  Created by Иван Бондаренко on 10/01/24.
 //
 
-import RswiftResources
 import UIKit
 
 class AppViewController: UIViewController {
     
-    private lazy var imageView: UIImageView = {
-        let image = UIImageView(image: R.image.imageThree())
-        image.translatesAutoresizingMaskIntoConstraints = false
-        return image
+    private let appContainerView: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-
-        view.addSubview(imageView)
+        setupView()
         setupConstraints()
-        
+        showMainApp()
     }
     
-    func setupConstraints() {
-        imageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        imageView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+    private func setupView() {
+        view.addSubview(appContainerView)
     }
     
+    private func setupConstraints() {
+        NSLayoutConstraint.activate([
+            appContainerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            appContainerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            appContainerView.topAnchor.constraint(equalTo: view.topAnchor),
+            appContainerView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+    }
+    
+    private func showMainApp() {
+        let rootViewController = TabBarController()
+        addChild(controller: rootViewController, rootView: appContainerView)
+    }
 }
