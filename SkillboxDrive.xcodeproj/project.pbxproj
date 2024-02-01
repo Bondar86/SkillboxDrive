@@ -23,6 +23,15 @@
 		734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 734383AC2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld */; };
 		734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734383AF2B4ED400001D1EF3 /* Assets.xcassets */; };
 		734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734383B12B4ED400001D1EF3 /* LaunchScreen.storyboard */; };
+		73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6B2B6BE29D001986CD /* Extension+Int.swift */; };
+		73507E712B6BE29D001986CD /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */; };
+		73507E722B6BE29D001986CD /* Extension+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */; };
+		73507E732B6BE29D001986CD /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */; };
+		73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */; };
+		73507E792B6BE2AA001986CD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E752B6BE2A9001986CD /* Fonts.swift */; };
+		73507E7A2B6BE2AA001986CD /* GraphikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E762B6BE2AA001986CD /* GraphikBold.otf */; };
+		73507E7B2B6BE2AA001986CD /* GraphikRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E772B6BE2AA001986CD /* GraphikRegular.otf */; };
+		73507E7C2B6BE2AA001986CD /* GraphikMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E782B6BE2AA001986CD /* GraphikMedium.otf */; };
 		7358069B2B5EBE2E00A6D721 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358069A2B5EBE2E00A6D721 /* TabBarController.swift */; };
 		7367CADC2B5041BF00522380 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADB2B5041BF00522380 /* Strings.swift */; };
 		7367CADE2B5041C600522380 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADD2B5041C600522380 /* Constance.swift */; };
@@ -50,6 +59,15 @@
 		734383AF2B4ED400001D1EF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		734383B22B4ED400001D1EF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		734383B42B4ED400001D1EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73507E6B2B6BE29D001986CD /* Extension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
+		73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
+		73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIFont.swift"; sourceTree = "<group>"; };
+		73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
+		73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIPageViewController.swift"; sourceTree = "<group>"; };
+		73507E752B6BE2A9001986CD /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		73507E762B6BE2AA001986CD /* GraphikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikBold.otf; sourceTree = "<group>"; };
+		73507E772B6BE2AA001986CD /* GraphikRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikRegular.otf; sourceTree = "<group>"; };
+		73507E782B6BE2AA001986CD /* GraphikMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikMedium.otf; sourceTree = "<group>"; };
 		7358069A2B5EBE2E00A6D721 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		7367CADB2B5041BF00522380 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7367CADD2B5041C600522380 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
@@ -129,6 +147,30 @@
 			path = SkillboxDrive;
 			sourceTree = "<group>";
 		};
+		73507E692B6BE229001986CD /* Extension+ */ = {
+			isa = PBXGroup;
+			children = (
+				73507E6B2B6BE29D001986CD /* Extension+Int.swift */,
+				73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */,
+				73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */,
+				73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */,
+				73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */,
+			);
+			path = "Extension+";
+			sourceTree = "<group>";
+		};
+		73507E6A2B6BE240001986CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				73507E752B6BE2A9001986CD /* Fonts.swift */,
+				73507E762B6BE2AA001986CD /* GraphikBold.otf */,
+				73507E782B6BE2AA001986CD /* GraphikMedium.otf */,
+				73507E772B6BE2AA001986CD /* GraphikRegular.otf */,
+			);
+			name = Fonts;
+			path = "Extension+/Fonts";
+			sourceTree = "<group>";
+		};
 		7358069C2B5EBE3700A6D721 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +246,9 @@
 			isa = PBXGroup;
 			children = (
 				7396827E2B4EE7CD00368593 /* Generated */,
+				73507E692B6BE229001986CD /* Extension+ */,
 				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
+				73507E6A2B6BE240001986CD /* Fonts */,
 				7367CADB2B5041BF00522380 /* Strings.swift */,
 				7367CADD2B5041C600522380 /* Constance.swift */,
 				7367CADF2B5041CD00522380 /* URLs.swift */,
@@ -298,6 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				734383B32B4ED400001D1EF3 /* LaunchScreen.storyboard in Resources */,
+				73507E7B2B6BE2AA001986CD /* GraphikRegular.otf in Resources */,
+				73507E7C2B6BE2AA001986CD /* GraphikMedium.otf in Resources */,
+				73507E7A2B6BE2AA001986CD /* GraphikBold.otf in Resources */,
 				734383B02B4ED400001D1EF3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,10 +405,16 @@
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
 				7342096A2B629F8E000C9105 /* LastFilesController.swift in Sources */,
 				734209712B629FC7000C9105 /* AllFilesController.swift in Sources */,
+				73507E722B6BE29D001986CD /* Extension+UIFont.swift in Sources */,
 				734209732B629FCE000C9105 /* AllFilesModel.swift in Sources */,
+				73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
+				73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */,
+				73507E732B6BE29D001986CD /* Extension+UIButton.swift in Sources */,
 				7367CAE02B5041CD00522380 /* URLs.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
+				73507E712B6BE29D001986CD /* Extension+ViewController.swift in Sources */,
+				73507E792B6BE2AA001986CD /* Fonts.swift in Sources */,
 				734209762B62A03C000C9105 /* PublishedFilesView.swift in Sources */,
 				7342097A2B62A05D000C9105 /* PublishedFilesModel.swift in Sources */,
 				7367CADC2B5041BF00522380 /* Strings.swift in Sources */,
