@@ -247,8 +247,8 @@
 			children = (
 				7396827E2B4EE7CD00368593 /* Generated */,
 				73507E692B6BE229001986CD /* Extension+ */,
-				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
 				73507E6A2B6BE240001986CD /* Fonts */,
+				734383AF2B4ED400001D1EF3 /* Assets.xcassets */,
 				7367CADB2B5041BF00522380 /* Strings.swift */,
 				7367CADD2B5041C600522380 /* Constance.swift */,
 				7367CADF2B5041CD00522380 /* URLs.swift */,
