@@ -9,16 +9,21 @@ import UIKit
 
 final class TabBarController: UITabBarController {
     
+    private let appVC = AppViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupVC()
     }
     
     private func setupVC() {
-//        lastFilesVC.tabBarItem.image = UIImage(systemName: "person")
-//        publishedFilesVC.tabBarItem.image = UIImage(systemName: "doc")
-//        allFilesVC.tabBarItem.image = UIImage(systemName: "archivebox")
-//        
-//        viewControllers = [lastFilesVC, publishedFilesVC, allFilesVC]
+        appVC.allFilesVC.tabBarItem.image = UIImage(systemName: "archivebox")
+        appVC.lastFilesVC.tabBarItem.image = UIImage(systemName: "person")
+        appVC.publishedFilesVC.tabBarItem.image = UIImage(systemName: "doc")
+    
+        tabBar.tintColor = R.color.accept1()
+        tabBar.unselectedItemTintColor = R.color.customGray()
+        
+        viewControllers = [appVC.allFilesVC, appVC.lastFilesVC, appVC.publishedFilesVC]
     }
 }
