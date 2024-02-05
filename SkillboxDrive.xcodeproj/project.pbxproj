@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A9F4A08DFB5C46E98AD4775 /* Pods_SkillboxDrive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3EE2E80CDD110BE998558D4 /* Pods_SkillboxDrive.framework */; };
-		73119B172B71317B00C50164 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73119B162B71317B00C50164 /* R.generated.swift */; };
+		73119B192B713AA600C50164 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73119B182B713AA600C50164 /* R.generated.swift */; };
 		734209682B629F72000C9105 /* LastFilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734209672B629F72000C9105 /* LastFilesView.swift */; };
 		7342096A2B629F8E000C9105 /* LastFilesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734209692B629F8E000C9105 /* LastFilesController.swift */; };
 		7342096C2B629F96000C9105 /* LastFilesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7342096B2B629F96000C9105 /* LastFilesModel.swift */; };
@@ -42,7 +42,7 @@
 /* Begin PBXFileReference section */
 		2A76D4D7E746606B03723A3F /* Pods-SkillboxDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillboxDrive.release.xcconfig"; path = "Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive.release.xcconfig"; sourceTree = "<group>"; };
 		6BA3E7E7146E274C5E4D4E44 /* Pods-SkillboxDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkillboxDrive.debug.xcconfig"; path = "Target Support Files/Pods-SkillboxDrive/Pods-SkillboxDrive.debug.xcconfig"; sourceTree = "<group>"; };
-		73119B162B71317B00C50164 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		73119B182B713AA600C50164 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		734209672B629F72000C9105 /* LastFilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesView.swift; sourceTree = "<group>"; };
 		734209692B629F8E000C9105 /* LastFilesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesController.swift; sourceTree = "<group>"; };
 		7342096B2B629F96000C9105 /* LastFilesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFilesModel.swift; sourceTree = "<group>"; };
@@ -259,7 +259,7 @@
 		7396827E2B4EE7CD00368593 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				73119B162B71317B00C50164 /* R.generated.swift */,
+				73119B182B713AA600C50164 /* R.generated.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -409,7 +409,7 @@
 				73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
 				73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */,
-				73119B172B71317B00C50164 /* R.generated.swift in Sources */,
+				73119B192B713AA600C50164 /* R.generated.swift in Sources */,
 				73507E732B6BE29D001986CD /* Extension+UIButton.swift in Sources */,
 				7367CAE02B5041CD00522380 /* URLs.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
