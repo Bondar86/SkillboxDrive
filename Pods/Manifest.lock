@@ -1,9 +1,9 @@
 PODS:
   - R.swift (7.3.2)
-  - SwiftLint (0.53.0)
+  - SwiftLint (0.54.0)
 
 DEPENDENCIES:
-  - R.swift
+  - R.swift (~> 7.3)
   - SwiftLint
 
 SPEC REPOS:
@@ -13,8 +13,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
-  SwiftLint: 5ce4d6a8ff83f1b5fd5ad5dbf30965d35af65e44
+  SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
 
-PODFILE CHECKSUM: e751a98b25f0030c3ae431c34a1d60fce9b9e2f1
+PODFILE CHECKSUM: a0aafd33a5a9b0e52186dd2d42f890e80bc079eb
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.14.3
