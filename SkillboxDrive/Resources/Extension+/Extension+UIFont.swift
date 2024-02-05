@@ -27,5 +27,4 @@ extension UIFont {
             R.font.graphikBold(size: fontSize) ?? .systemFont(ofSize: fontSize, weight: .bold)
         }
     }
-    
 }

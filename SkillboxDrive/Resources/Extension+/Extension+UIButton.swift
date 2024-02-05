@@ -7,6 +7,11 @@
 
 import UIKit
 
+enum PrimaryButtonType {
+    case common
+    case small
+}
+
 extension UIButton {
     func startAnimatingPressAction() {
         addTarget(self, action: #selector(animateDown), for: [.touchDown, .touchDragEnter])
@@ -35,8 +40,12 @@ extension UIButton {
                        initialSpringVelocity: 3,
                        options: [.curveEaseInOut],
                        animations: {
-                        button.transform = transform
+            button.transform = transform
         }, completion: nil)
+    }
+    
+    func PrimaryButton(type: PrimaryButtonType, text: String) {
+    
     }
     
 }

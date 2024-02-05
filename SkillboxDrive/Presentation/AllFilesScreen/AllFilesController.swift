@@ -9,4 +9,8 @@ import UIKit
 
 class AllFilesController: UIViewController {
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = R.color.customWhite()
+    }
 }

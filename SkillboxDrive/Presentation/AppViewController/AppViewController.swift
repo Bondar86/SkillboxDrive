@@ -9,6 +9,10 @@ import UIKit
 
 class AppViewController: UIViewController {
     
+    let lastFilesVC = LastFilesController()
+    let publishedFilesVC = PublishedFilesController()
+    let allFilesVC = AllFilesController()
+    
     private let appContainerView: UIView = {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
