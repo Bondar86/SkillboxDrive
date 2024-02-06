@@ -37,6 +37,7 @@ class AppViewController: UIViewController {
         publishedFilesVC.tabBarItem.image = R.image.profile()
         allFilesVC.tabBarItem.image = R.image.allFiles()
         rootViewController.viewControllers = [lastFilesVC, publishedFilesVC, allFilesVC]
+        let c = 66
         return rootViewController
     }
     
