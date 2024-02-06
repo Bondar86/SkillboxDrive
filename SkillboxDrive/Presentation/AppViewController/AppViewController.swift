@@ -9,9 +9,9 @@ import UIKit
 
 class AppViewController: UIViewController {
     
-    let lastFilesVC = LastFilesController()
-    let publishedFilesVC = PublishedFilesController()
-    let allFilesVC = AllFilesController()
+    private let lastFilesVC = UINavigationController(rootViewController: LastFilesController())
+    private let publishedFilesVC = UINavigationController(rootViewController: PublishedFilesController())
+    private let allFilesVC = UINavigationController(rootViewController: AllFilesController())
     
     private let appContainerView: UIView = {
         let view = UIView()
@@ -31,6 +31,15 @@ class AppViewController: UIViewController {
         view.addSubview(appContainerView)
     }
     
+    private func createTabBarController() -> TabBarController {
+        let rootViewController = TabBarController()
+        lastFilesVC.tabBarItem.image = R.image.lastFiles()
+        publishedFilesVC.tabBarItem.image = R.image.profile()
+        allFilesVC.tabBarItem.image = R.image.allFiles()
+        rootViewController.viewControllers = [lastFilesVC, publishedFilesVC, allFilesVC]
+        return rootViewController
+    }
+    
     private func setupConstraints() {
         NSLayoutConstraint.activate([
             appContainerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -41,7 +50,7 @@ class AppViewController: UIViewController {
     }
     
     private func showMainApp() {
-        let rootViewController = TabBarController()
+        let rootViewController = createTabBarController()
         addChild(controller: rootViewController, rootView: appContainerView)
     }
 }
