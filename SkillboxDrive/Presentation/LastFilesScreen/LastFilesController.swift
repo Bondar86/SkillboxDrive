@@ -11,6 +11,6 @@ class LastFilesController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = R.color.customWhite()
+        view.backgroundColor = .white
     }
 }
