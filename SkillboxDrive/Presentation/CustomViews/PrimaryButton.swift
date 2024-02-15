@@ -9,62 +9,33 @@ import UIKit
 
 final class PrimaryButton: UIButton {
     
-    enum ButtonType {
-        case small
-        case normal
+    // MARK: - Public Properties
         
-        var color: UIColor {
-            switch self {
-            case .small:
-                R.color.accept2() ?? UIColor.systemPink
-            case .normal:
-                R.color.accept1() ?? UIColor.blue
-            }
-        }
-        
-        var textColor: UIColor {
-            switch self {
-            case .small:
-                R.color.customBlack() ?? UIColor.black
-            case .normal:
-                R.color.customWhite() ?? UIColor.white
-            }
-        }
-        
-        var size: CGSize {
-            switch self {
-            case .small:
-                CGSize(width: 300, height: 41)
-            case .normal:
-                CGSize(width: 320, height: 50)
-            }
-        }
-    }
-    
     override var isHighlighted: Bool {
         didSet {
-            if isHighlighted {
-                UIView.animate(withDuration: 0.3) {
-                    self.transformIn()
-                }
-                alpha = 0.4
-            } else {
-                UIView.animate(withDuration: 0.3) {
-                    self.transformOut()
-                }
-                alpha = 1
+            // Проверяем, что у нас изменилось состояние
+            guard oldValue != isHighlighted else { return }
+            // Анимируем скейл (если isHighlighted - скейл будет CGAffineTransform(scaleX: 0.97, y: 0.97), если нет, тогда identity)
+            UIView.animate(withDuration: 0.3) {
+                self.transform = self.isHighlighted ? CGAffineTransform(scaleX: 0.97, y: 0.97) : .identity
             }
-        }
+            // Анимируем альфу
+            alpha = isHighlighted ? 0.4 : 1.0 }
     }
     
-    private let type: ButtonType
+    override var intrinsicContentSize: CGSize { type.size }
+    
+    // MARK: - Private Properties
+    
+    private let type: PrimaryButtonViewModel
     private let text: String
+    
+    // MARK: - Initializers
 
-    init(type: ButtonType, text: String) {
+    init(type: PrimaryButtonViewModel, text: String) {
         self.type = type
         self.text = text
         super.init(frame: .zero)
-        setupSize()
         setupButton()
     }
     
@@ -72,24 +43,12 @@ final class PrimaryButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Private Methods
+    
     private func setupButton() {
         setTitleColor(type.textColor, for: .normal)
         setTitle(text, for: .normal)
         layer.cornerRadius = type.size.height / 2
         backgroundColor = type.color
-    }
-    
-    private func transformIn() {
-        transform = CGAffineTransform.identity.scaledBy(x: 0.97, y: 0.97)
-    }
-    
-    private func transformOut() {
-        transform = CGAffineTransform.identity
-    }
-    
-    private func setupSize() {
-        translatesAutoresizingMaskIntoConstraints = false
-        heightAnchor.constraint(equalToConstant: type.size.height).isActive = true
-        widthAnchor.constraint(equalToConstant: type.size.width).isActive = true
     }
 }
