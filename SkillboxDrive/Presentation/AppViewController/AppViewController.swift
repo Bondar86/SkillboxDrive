@@ -21,7 +21,6 @@ class AppViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
         setupView()
         setupConstraints()
         showMainApp()
@@ -37,9 +36,6 @@ class AppViewController: UIViewController {
         publishedFilesVC.tabBarItem.image = R.image.profile()
         allFilesVC.tabBarItem.image = R.image.allFiles()
         rootViewController.viewControllers = [lastFilesVC, publishedFilesVC, allFilesVC]
-        let a = 2
-        let l = 32
-        let t = 9
         return rootViewController
     }
     

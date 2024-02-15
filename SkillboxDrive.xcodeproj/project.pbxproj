@@ -26,13 +26,14 @@
 		73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6B2B6BE29D001986CD /* Extension+Int.swift */; };
 		73507E712B6BE29D001986CD /* Extension+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */; };
 		73507E722B6BE29D001986CD /* Extension+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */; };
-		73507E732B6BE29D001986CD /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */; };
 		73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */; };
 		73507E792B6BE2AA001986CD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73507E752B6BE2A9001986CD /* Fonts.swift */; };
 		73507E7A2B6BE2AA001986CD /* GraphikBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E762B6BE2AA001986CD /* GraphikBold.otf */; };
 		73507E7B2B6BE2AA001986CD /* GraphikRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E772B6BE2AA001986CD /* GraphikRegular.otf */; };
 		73507E7C2B6BE2AA001986CD /* GraphikMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73507E782B6BE2AA001986CD /* GraphikMedium.otf */; };
 		7358069B2B5EBE2E00A6D721 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358069A2B5EBE2E00A6D721 /* TabBarController.swift */; };
+		735CDCEC2B7283F200608AEB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCEB2B7283F200608AEB /* PrimaryButton.swift */; };
+		735CDCEE2B7D038900608AEB /* PrimaryButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */; };
 		7367CADC2B5041BF00522380 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADB2B5041BF00522380 /* Strings.swift */; };
 		7367CADE2B5041C600522380 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADD2B5041C600522380 /* Constance.swift */; };
 		7367CAE02B5041CD00522380 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADF2B5041CD00522380 /* URLs.swift */; };
@@ -62,13 +63,14 @@
 		73507E6B2B6BE29D001986CD /* Extension+Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
 		73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+ViewController.swift"; sourceTree = "<group>"; };
 		73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIFont.swift"; sourceTree = "<group>"; };
-		73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
 		73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIPageViewController.swift"; sourceTree = "<group>"; };
 		73507E752B6BE2A9001986CD /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		73507E762B6BE2AA001986CD /* GraphikBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikBold.otf; sourceTree = "<group>"; };
 		73507E772B6BE2AA001986CD /* GraphikRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikRegular.otf; sourceTree = "<group>"; };
 		73507E782B6BE2AA001986CD /* GraphikMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GraphikMedium.otf; sourceTree = "<group>"; };
 		7358069A2B5EBE2E00A6D721 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		735CDCEB2B7283F200608AEB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonViewModel.swift; sourceTree = "<group>"; };
 		7367CADB2B5041BF00522380 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7367CADD2B5041C600522380 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		7367CADF2B5041CD00522380 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
@@ -151,7 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				73507E6B2B6BE29D001986CD /* Extension+Int.swift */,
-				73507E6E2B6BE29D001986CD /* Extension+UIButton.swift */,
 				73507E6D2B6BE29D001986CD /* Extension+UIFont.swift */,
 				73507E6F2B6BE29D001986CD /* Extension+UIPageViewController.swift */,
 				73507E6C2B6BE29D001986CD /* Extension+ViewController.swift */,
@@ -179,9 +180,19 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		735CDCE82B7283A200608AEB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				735CDCEB2B7283F200608AEB /* PrimaryButton.swift */,
+				735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		7367CACC2B503DBE00522380 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				735CDCE82B7283A200608AEB /* CustomViews */,
 				739682702B4ED7FF00368593 /* AppViewController */,
 				7396826C2B4ED74700368593 /* LaunchScreen */,
 				7358069C2B5EBE3700A6D721 /* TabBar */,
@@ -425,13 +436,14 @@
 				734383AE2B4ED3FE001D1EF3 /* SkillboxDrive.xcdatamodeld in Sources */,
 				7342096A2B629F8E000C9105 /* LastFilesController.swift in Sources */,
 				734209712B629FC7000C9105 /* AllFilesController.swift in Sources */,
+				735CDCEE2B7D038900608AEB /* PrimaryButtonViewModel.swift in Sources */,
+				735CDCEC2B7283F200608AEB /* PrimaryButton.swift in Sources */,
 				73507E722B6BE29D001986CD /* Extension+UIFont.swift in Sources */,
 				734209732B629FCE000C9105 /* AllFilesModel.swift in Sources */,
 				73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
 				73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */,
 				D830F8532B71531100F9B398 /* R.generated.swift in Sources */,
-				73507E732B6BE29D001986CD /* Extension+UIButton.swift in Sources */,
 				7367CAE02B5041CD00522380 /* URLs.swift in Sources */,
 				734383A42B4ED3FE001D1EF3 /* AppDelegate.swift in Sources */,
 				73507E712B6BE29D001986CD /* Extension+ViewController.swift in Sources */,
@@ -595,6 +607,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,6 +640,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
