@@ -34,6 +34,9 @@
 		7358069B2B5EBE2E00A6D721 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7358069A2B5EBE2E00A6D721 /* TabBarController.swift */; };
 		735CDCEC2B7283F200608AEB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCEB2B7283F200608AEB /* PrimaryButton.swift */; };
 		735CDCEE2B7D038900608AEB /* PrimaryButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */; };
+		735CDCF42B7E6F7600608AEB /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCF32B7E6F7600608AEB /* LoginScreenView.swift */; };
+		735CDCF62B7E6F8300608AEB /* LoginScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCF52B7E6F8300608AEB /* LoginScreenController.swift */; };
+		735CDCF82B7E6F8E00608AEB /* LoginScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735CDCF72B7E6F8E00608AEB /* LoginScreenModel.swift */; };
 		7367CADC2B5041BF00522380 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADB2B5041BF00522380 /* Strings.swift */; };
 		7367CADE2B5041C600522380 /* Constance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADD2B5041C600522380 /* Constance.swift */; };
 		7367CAE02B5041CD00522380 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7367CADF2B5041CD00522380 /* URLs.swift */; };
@@ -71,6 +74,9 @@
 		7358069A2B5EBE2E00A6D721 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		735CDCEB2B7283F200608AEB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonViewModel.swift; sourceTree = "<group>"; };
+		735CDCF32B7E6F7600608AEB /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		735CDCF52B7E6F8300608AEB /* LoginScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenController.swift; sourceTree = "<group>"; };
+		735CDCF72B7E6F8E00608AEB /* LoginScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenModel.swift; sourceTree = "<group>"; };
 		7367CADB2B5041BF00522380 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		7367CADD2B5041C600522380 /* Constance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constance.swift; sourceTree = "<group>"; };
 		7367CADF2B5041CD00522380 /* URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
@@ -183,10 +189,28 @@
 		735CDCE82B7283A200608AEB /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				735CDCEF2B7E6CC300608AEB /* PrimaryButton */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		735CDCEF2B7E6CC300608AEB /* PrimaryButton */ = {
+			isa = PBXGroup;
+			children = (
 				735CDCEB2B7283F200608AEB /* PrimaryButton.swift */,
 				735CDCED2B7D038900608AEB /* PrimaryButtonViewModel.swift */,
 			);
-			path = CustomViews;
+			path = PrimaryButton;
+			sourceTree = "<group>";
+		};
+		735CDCF22B7E6D0D00608AEB /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				735CDCF32B7E6F7600608AEB /* LoginScreenView.swift */,
+				735CDCF52B7E6F8300608AEB /* LoginScreenController.swift */,
+				735CDCF72B7E6F8E00608AEB /* LoginScreenModel.swift */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 		7367CACC2B503DBE00522380 /* Presentation */ = {
@@ -199,6 +223,7 @@
 				7342096D2B629FA3000C9105 /* LastFilesScreen */,
 				734209742B629FD4000C9105 /* AllFilesScreen */,
 				7342097B2B62A0EA000C9105 /* PublishedFilesScreen */,
+				735CDCF22B7E6D0D00608AEB /* LoginScreen */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -441,6 +466,8 @@
 				73507E722B6BE29D001986CD /* Extension+UIFont.swift in Sources */,
 				734209732B629FCE000C9105 /* AllFilesModel.swift in Sources */,
 				73507E702B6BE29D001986CD /* Extension+Int.swift in Sources */,
+				735CDCF82B7E6F8E00608AEB /* LoginScreenModel.swift in Sources */,
+				735CDCF62B7E6F8300608AEB /* LoginScreenController.swift in Sources */,
 				734383A82B4ED3FE001D1EF3 /* AppViewController.swift in Sources */,
 				73507E742B6BE29D001986CD /* Extension+UIPageViewController.swift in Sources */,
 				D830F8532B71531100F9B398 /* R.generated.swift in Sources */,
@@ -454,6 +481,7 @@
 				734383A62B4ED3FE001D1EF3 /* SceneDelegate.swift in Sources */,
 				7367CADE2B5041C600522380 /* Constance.swift in Sources */,
 				734209782B62A04E000C9105 /* PublishedFilesController.swift in Sources */,
+				735CDCF42B7E6F7600608AEB /* LoginScreenView.swift in Sources */,
 				7342096F2B629FC1000C9105 /* AllFilesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

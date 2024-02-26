@@ -9,9 +9,11 @@ import UIKit
 
 class AppViewController: UIViewController {
     
-    private let lastFilesVC = UINavigationController(rootViewController: LastFilesController())
-    private let publishedFilesVC = UINavigationController(rootViewController: PublishedFilesController())
-    private let allFilesVC = UINavigationController(rootViewController: AllFilesController())
+    private let lastFilesController = UINavigationController(rootViewController: LastFilesController())
+    private let publishedFilesController = UINavigationController(rootViewController: PublishedFilesController())
+    private let allFilesController = UINavigationController(rootViewController: AllFilesController())
+    
+    private let loginScreenController = UINavigationController(rootViewController: LoginScreenController())
     
     private let appContainerView: UIView = {
         let view = UIView()
@@ -32,10 +34,10 @@ class AppViewController: UIViewController {
     
     private func createTabBarController() -> TabBarController {
         let rootViewController = TabBarController()
-        lastFilesVC.tabBarItem.image = R.image.lastFiles()
-        publishedFilesVC.tabBarItem.image = R.image.profile()
-        allFilesVC.tabBarItem.image = R.image.allFiles()
-        rootViewController.viewControllers = [lastFilesVC, publishedFilesVC, allFilesVC]
+        lastFilesController.tabBarItem.image = R.image.lastFiles()
+        publishedFilesController.tabBarItem.image = R.image.profile()
+        allFilesController.tabBarItem.image = R.image.allFiles()
+        rootViewController.viewControllers = [lastFilesController, publishedFilesController, allFilesController]
         return rootViewController
     }
     
@@ -49,7 +51,8 @@ class AppViewController: UIViewController {
     }
     
     private func showMainApp() {
-        let rootViewController = createTabBarController()
+//        let rootViewController = createTabBarController()
+        let rootViewController = loginScreenController
         addChild(controller: rootViewController, rootView: appContainerView)
     }
 }
