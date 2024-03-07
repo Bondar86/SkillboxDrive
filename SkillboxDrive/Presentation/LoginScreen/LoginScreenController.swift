@@ -7,55 +7,34 @@
 
 import UIKit
 
-class LoginScreenController: UIViewController {
+final class LoginScreenController: UIViewController {
     
-    // MARK: - Private Properties
+    // MARK: - Private propertie
     
-    private lazy var image: UIImageView = {
-        let image = UIImageView(image: R.image.logo())
-        image.translatesAutoresizingMaskIntoConstraints = false
-        return image
-    }()
-    
-    private lazy var button = PrimaryButton(type: .normal, text: "Войти")
+    private lazy var loginScreenView = LoginScreenView(delegate: self)
     
     // MARK: - Initializer
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupView()
-        setupConstraints()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        loginScreenView.animateButton()
+        loadView()
     }
     
-    // MARK: - Private methods
+    // MARK: - Public method
     
-    private func setupView() {
-        view.backgroundColor = R.color.customWhite()
-        view.addSubview(image)
-        view.addSubview(button)
-        setupButton()
+    override func loadView() {
+        view = loginScreenView
     }
+}
+
+// MARK: - Extension
+
+extension LoginScreenController: LoginScreenViewDelegate {
     
-    private func setupButton() {
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.addTarget(self, action: #selector(action), for: .touchUpInside)
-        button.alpha = 0
-        UIView.animate(withDuration: 1.5) {
-            self.button.alpha = 1
-        }
-    }
+    // MARK: - Public methods
     
-    private func setupConstraints() {
-        NSLayoutConstraint.activate([
-            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            image.topAnchor.constraint(equalTo: view.topAnchor, constant: 271.fitH),
-            
-            button.centerXAnchor.constraint(equalTo: image.centerXAnchor),
-            button.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -92.fitH)
-        ])
-    }
-    
-    @objc private func action() {
-        print("Text")
+    func registerButtonTappped() {
+        print("Controller")
     }
 }

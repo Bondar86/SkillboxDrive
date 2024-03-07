@@ -51,7 +51,6 @@ class AppViewController: UIViewController {
     }
     
     private func showMainApp() {
-//        let rootViewController = createTabBarController()
         let rootViewController = loginScreenController
         addChild(controller: rootViewController, rootView: appContainerView)
     }
