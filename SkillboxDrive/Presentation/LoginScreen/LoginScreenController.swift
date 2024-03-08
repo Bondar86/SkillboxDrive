@@ -13,28 +13,23 @@ final class LoginScreenController: UIViewController {
     
     private lazy var loginScreenView = LoginScreenView(delegate: self)
     
+    // MARK: - LifeCycle
+    
+    override func loadView() {
+        view = loginScreenView
+    }
+    
     // MARK: - Initializer
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         loginScreenView.animateButton()
-        loadView()
-    }
-    
-    // MARK: - Public method
-    
-    override func loadView() {
-        view = loginScreenView
     }
 }
 
-// MARK: - Extension
+// MARK: - LoginScreenViewDelegate
 
 extension LoginScreenController: LoginScreenViewDelegate {
     
-    // MARK: - Public methods
-    
-    func registerButtonTappped() {
-        print("Controller")
-    }
+    func registerButtonTappped() {}
 }

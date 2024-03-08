@@ -81,6 +81,5 @@ final class LoginScreenView: UIView {
     
     @objc func actionButton() {
         delegate?.registerButtonTappped()
-        print("ActionButton")
     }
 }
